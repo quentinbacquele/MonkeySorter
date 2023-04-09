@@ -41,4 +41,4 @@ python sorter.py
 - **Save**: Check this box to save the videos with monkey detections.
 - **Save TXT**: Check this box to save the detection results, including bounding box coordinates, in a text file.
 
-![App Screenshot](app_screenshot.png)
+![App Screenshot](main_window.png)
