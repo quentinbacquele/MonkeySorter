@@ -33,6 +33,7 @@ pip install -r requirements.txt
 
 Run the `sorter.py` script in the command prompt:
 ```bash
+cd MonkeySorter
 python sorter.py
 ``` 
 
