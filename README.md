@@ -3,6 +3,8 @@ MonkeySorter is a video sorting tool that uses the last YOLOv8 architecture (You
 
 ![App Screenshot](main_window.png)
 
+## Requirements
+
 - Git
 - Python 3.x
 - CUDA, cuDNN, and compatible GPU (if you plan to use GPU for inference)
