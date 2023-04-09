@@ -13,6 +13,7 @@ MonkeySorter is a video sorting tool that uses the last YOLOv8 architecture (You
 git clone https://github.com/quentinbacquele/MonkeySorter.git
 ``` 
 2. Install PyTorch with the correct CUDA, cuDNN, and GPU support. Follow the instructions on the official PyTorch website[https://pytorch.org/].
+
 3. Install Ultralytics:
 
 ```bash
