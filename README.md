@@ -12,7 +12,7 @@ MonkeySorter is a video sorting tool that uses the last YOLOv8 architecture (You
 ```bash
 git clone https://github.com/quentinbacquele/MonkeySorter.git
 ``` 
-2. Install PyTorch with the correct CUDA, cuDNN, and GPU support. Follow the instructions on the official PyTorch website[https://pytorch.org/].
+2. Install PyTorch with the correct CUDA, cuDNN, and GPU support. Follow the instructions on the [official PyTorch website](https://pytorch.org/get-started/locally/).
 
 3. Install Ultralytics:
 
@@ -32,3 +32,13 @@ Run the `sorter.py` script in the command prompt:
 python sorter.py
 ``` 
 
+### App Instructions
+
+- **Model**: Choose the model for detection. The smaller the model, the faster the inference. The larger the model, the better the accuracy.
+- **Confidence Threshold**: Set the confidence threshold for detection.
+- **IOU Threshold**: Set the intersection-over-union (IOU) threshold for non-maximum suppression (NMS).
+- **Show**: Check this box to show the video with detections in real-time.
+- **Save**: Check this box to save the videos with monkey detections.
+- **Save TXT**: Check this box to save the detection results, including bounding box coordinates, in a text file.
+
+![App Screenshot](app_screenshot.png)
